@@ -16,5 +16,6 @@ elem.send_keys('Robot Framework')
 driver.find_element_by_id('su').click()
 sleep(10)
 driver.close()
+driver.quit()
 
 
